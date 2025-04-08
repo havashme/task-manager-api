@@ -5,7 +5,7 @@ const auth = require("./middleware_auth")
 const router = express.Router()
 
 
-// router.get("/tasks" ,async (req , res) => {
+//  router.get("/tasks" ,async (req , res) => {
 //     try{
 //           const [rows] = await  pool.query(`select * from tasks `)
 //             res.json(rows)
